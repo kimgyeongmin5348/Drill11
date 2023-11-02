@@ -1,5 +1,6 @@
 from pico2d import *
 
+
 class Grass:
     def __init__(self):
         self.image = load_image('grass.png')
@@ -12,5 +13,3 @@ class Grass:
         self.image.draw(400, 30)
         self.image.draw(1200, 30)
         self.ruler_image.draw(800, 350)
-
-

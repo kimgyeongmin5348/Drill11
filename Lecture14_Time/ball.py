@@ -10,7 +10,7 @@ class Ball:
         self.x, self.y, self.velocity = x, y, velocity
 
     def draw(self):
-        self.image.draw(self.x, self.y)
+        self.image.draw(self.x)
 
     def update(self):
         self.x += self.velocity
@@ -27,7 +27,7 @@ class BigBall:
         self.x, self.y, self.velocity = x, y, velocity
 
     def draw(self):
-        self.image.draw(self.x, self.y)
+        self.image.draw(self.x)
 
     def update(self):
         self.x += self.velocity

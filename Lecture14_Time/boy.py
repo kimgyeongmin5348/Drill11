@@ -99,7 +99,7 @@ class Run:
 
     @staticmethod
     def do(boy):
-        boy.frame =  (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
+        boy.frame = (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
         boy.x += boy.dir * RUN_SPEED_PPS * game_framework.frame_time
 
     @staticmethod
@@ -120,7 +120,7 @@ class Sleep:
 
     @staticmethod
     def do(boy):
-        boy.frame =  (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
+        boy.frame = (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
 
     @staticmethod
     def draw(boy):
